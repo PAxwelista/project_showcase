@@ -1,15 +1,18 @@
-import styles from '../styles/Home.module.css';
+import Link from "next/link";
+import Project from "../components/Project";
+import projects from "../projects.json";
+import styles from "../styles/Home.module.css";
 
-function Home() {
-  return (
-    <div>
-      <main className={styles.main}>
-        <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
-        </h1>
-      </main>
-    </div>
-  );
+export default function Home() {
+    return (
+        <div className={styles.global}>
+            <h1 className={styles.title}>Liste des projets réalisés par Axel Madotto</h1>
+            <div className={styles.list}>
+                {projects.map(project => (
+                    <Project key={project.id} {...project} />
+                ))}
+            </div>
+            <Link  href="https://github.com/PAxwelista"><a className={styles.link}>Lien Github</a></Link>
+        </div>
+    );
 }
-
-export default Home;

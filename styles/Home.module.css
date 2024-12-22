@@ -1,22 +1,14 @@
-.main {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
-  padding: 4rem 0;
+.global {
+    flex:1;
+    margin: 20px;
 }
-
 .title {
-  line-height: 1.15;
-  font-size: 4rem;
+    text-align: center;
 }
-
-.title a {
-  color: #0070f3;
-  text-decoration: none;
+.list {
+    flex:1;
+    flex-direction: row;
 }
-
-.title a:hover, .title a:focus, .title a:active {
-  text-decoration: underline;
+.link{
+    text-align: right;
 }

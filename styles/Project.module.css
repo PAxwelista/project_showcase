@@ -1,0 +1,28 @@
+.global {
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    border-radius: 20px;
+    padding: 20px;
+}
+.global:hover {
+    background-color: rgb(226, 238, 222);
+    cursor: pointer;
+}
+.textSection {
+    flex: 3;
+}
+.pictureSection {
+    display: flex;
+    flex: 1;
+    margin: 10px;
+   justify-content: flex-end;
+}
+.picture {
+    transition: 1s;
+    transform: scale(1);
+}
+.picture:hover {
+    transition: 1s;
+    transform: scale(1.1);
+}

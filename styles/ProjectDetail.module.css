@@ -1,0 +1,39 @@
+.global {
+    display: flex;
+    height: 100vh;
+    flex: 1;
+    flex-direction: column;
+    padding: 20px;
+}
+.content {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+}
+.title {
+    text-align: center;
+}
+.textSection {
+    display: flex;
+    flex: 3;
+    flex-direction: column;
+    margin: 10px;
+}
+.rightSection {
+    display: flex;
+    flex: 2;
+    flex-direction: column;
+    text-align: center;
+}
+.usedTechnos {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.usedTechno {
+    padding: 10px;
+    margin: 10px;
+    border-radius: 50px;
+    background-color: rgb(183, 238, 178);
+}
