@@ -4,13 +4,15 @@
     justify-content: space-between;
     border-radius: 20px;
     padding: 20px;
+    border:solid 1px lightgray;
+    margin: 1px;
 }
 .global:hover {
     background-color: rgb(226, 238, 222);
     cursor: pointer;
 }
 .textSection {
-    flex: 3;
+    flex: 2;
 }
 .pictureSection {
     display: flex;

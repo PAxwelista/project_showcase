@@ -8,3 +8,11 @@
 .picture {
     margin: 10px;
 }
+.image {
+    border-radius: 10px;
+}
+.zoomedPicture {
+    object-fit: contain;
+    max-height: 80vh;
+    max-width: 90vw;
+}

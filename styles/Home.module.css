@@ -3,12 +3,30 @@
     margin: 20px;
 }
 .title {
+    display: flex;
+    flex:6;
     text-align: center;
+    font-size: 2.5em;
+    margin:10px;
+    justify-content: center;
 }
 .list {
     flex:1;
     flex-direction: row;
 }
 .link{
-    text-align: right;
+    display:flex;
+    justify-content: right;
+    margin:10px
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: stretch;
+}
+.logos{
+    display: flex;
+    flex:1;
+    justify-content: center;
+    min-width: 100px;
 }

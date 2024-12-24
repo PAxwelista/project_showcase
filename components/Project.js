@@ -23,10 +23,12 @@ export default function Project(props) {
                 {props.pictures && (
                     <Image
                         className={styles.picture}
-                        width={200}
+                        width={400}
                         height={200}
+                        objectFit={"contain"}
                         src={props.pictures[0]}
                         alt={props.title}
+                        
                     />
                 )}
             </div>
