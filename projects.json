@@ -3,7 +3,7 @@
         "id": 0,
         "title": "Yellow submarine",
         "pictures": ["/images/yellowSubmarine.png"],
-        "description": "Un projet vitrine avec les différents membres des Beattles",
+        "description": "Un projet vitrine avec les différents membres des Beatles. Un site web fait en Vanilla javaScript.",
         "usedTechnos": ["HTML", "CSS"],
         "gitHubLink": ["https://github.com/PAxwelista/YellowSubmarine"],
         "color": "#fec65d"
@@ -12,7 +12,7 @@
         "id": 1,
         "title": "Tokenify",
         "pictures": ["/images/tokenify.png"],
-        "description": "Permet de visualiser le top 10 des musiques d'un artiste",
+        "description": "Permet de visualiser le top 10 des musiques d'un artiste via l'API de Spotify.",
         "usedTechnos": ["JavaScript", "HTML", "CSS"],
         "gitHubLink": ["https://github.com/PAxwelista/Tokenify"],
         "color": "#94ca42"
@@ -21,7 +21,7 @@
         "id": 2,
         "title": "MyMails",
         "pictures": ["/images/myMails.png"],
-        "description": "Envois de messages sur un site web",
+        "description": "Permet l'envoi de messages sur un site web. Les utilisateurs peuvent envoyer des messages, les supprimer et les filtrer en fonction de l'expéditeur.",
         "usedTechnos": ["JavaScript", "HTML", "CSS"],
         "gitHubLink": ["https://github.com/PAxwelista/MyMails"],
         "color": "#5888E6"
@@ -30,7 +30,7 @@
         "id": 3,
         "title": "Weather App",
         "pictures": ["/images/WeatherApp1.png", "/images/WeatherApp2.png"],
-        "description": "Enregistre la météo d'une ville dans une base de données et l'affiche",
+        "description": "Enregistre la météo d'une ville voulu, elle est enregistrée dans une base de données MongoDB. Les utilisateurs peuvent supprimer les données météos des villes ou en rajouter de nouvelles. Il est possible de s'inscrire et de se connecter.",
         "usedTechnos": ["Vercel", "Nodes.js", "Express", "JavaScript", "HTML", "CSS", "MongoDB"],
         "gitHubLink": [
             "https://github.com/PAxwelista/weatherApp-frontend",
@@ -43,7 +43,7 @@
         "id": 4,
         "title": "TicketHack",
         "pictures": ["/images/tickethack1.png", "/images/tickethack2.png"],
-        "description": "Site permettant de visualiser des trajets, de les réserver et de les consulter",
+        "description": "Visualise les différents trajets disponibles en fonction de filtres. Les utilisateurs peuvent ajouter des trajets à leur panier et par la suite valider le paiement des différents trajets séletionnés.",
         "usedTechnos": ["Vercel", "Nodes.js", "Express", "JavaScript", "HTML", "CSS", "MongoDB"],
         "gitHubLink": [
             "https://github.com/PAxwelista/TicketHack-frontend",
@@ -56,7 +56,7 @@
         "id": 5,
         "title": "Yams",
         "pictures": ["/images/yams.png"],
-        "description": "Le jeux du yams",
+        "description": "Le jeu du yams. On peut lancer tous les dés en une seule fois. Relancer un seul dé en cliquant dessus. Un total du score des dés combinés est également affiché.",
         "usedTechnos": ["React", "Next", "CSS"],
         "gitHubLink": ["https://github.com/PAxwelista/yams"],
         "color": "#30AA29",
@@ -66,7 +66,7 @@
         "id": 6,
         "title": "MyMoviz",
         "pictures": ["/images/myMoviz.png"],
-        "description": "Un site qui permet de voir les dernières sortie cinématographique avec leur notes",
+        "description": "Un site qui permet de voir les dernières sorties cinématographiques. Les utilisateurs peuvent accéder aux notes des films et au nombres de personnes qui ont liké. Les données sont récupérées via un appel d'API vers TMDB. De plus on peut liker des films et retrouver les films likés.",
         "usedTechnos": ["Node.js", "Express", "React", "Next", "CSS"],
         "gitHubLink": [
             "https://github.com/PAxwelista/mymoviz-frontend",
@@ -79,7 +79,7 @@
         "id": 7,
         "title": "MemoryGame",
         "pictures": ["/images/memoryGame.png"],
-        "description": "Le jeux du mémory",
+        "description": "Le jeu du mémory.",
         "usedTechnos": ["React", "Next"],
         "gitHubLink": ["https://github.com/PAxwelista/memoryGame"],
         "color": "#EEE"
@@ -88,7 +88,7 @@
         "id": 8,
         "title": "Morning News",
         "pictures": ["/images/morningNews1.png", "/images/morningNews2.png"],
-        "description": "Un site qui répertorie les derniers news concernant le TechCrunch. On peut s'y inscrire et rajouter les articles dans sont bookmark pour les revoir après",
+        "description": "Un site qui répertorie les derniers news publiées par TechCrunch. Les utilisateurs peuvent s'y inscrire et rajouter les articles dans leur bookmark pour les retrouver ultérieurement. On y utilise redux persist afin de pouvoir diretement être connecté au site après la première connexion.",
         "usedTechnos": ["Redux", "React", "Next", "Node.js", "Express", "Vercel"],
         "gitHubLink": [
             "https://github.com/PAxwelista/MorningNews-frontend",
@@ -101,7 +101,7 @@
         "id": 9,
         "title": "Tailwind Star Wars",
         "pictures": ["/images/tailwindWars1.png", "/images/tailwindWars2.png"],
-        "description": "Permet de faire appel à un API pour en savoir plus sur l'univers de Star Wars",
+        "description": "Permet de faire appel à une API pour en savoir plus sur l'univers de Star Wars. Le style de ce site est intégralement écris avec Tailwind CSS.",
         "usedTechnos": ["Tailwind", "React", "Next"],
         "gitHubLink": ["https://github.com/PAxwelista/ThemeWars"],
         "color": "#EEE"
@@ -115,7 +115,7 @@
             "/images/hackaTweet3.png",
             "/images/hackaTweet4.png"
         ],
-        "description": "Un réseau social où l'on peut poster, liker et trier grâce à des hashtags",
+        "description": "Une copie simplifiée du grand site de l'oiseau bleu. Les utilisateurs peuvent s'inscrire et se connecter. Ils ont a la possibilité de publier des tweets incluant des hashtags. Filtrer les hashtags qu'ils souhaitent et de liker un tweet.",
         "usedTechnos": ["Node.js", "Express", "TDD", "React", "Next", "Vercel"],
         "gitHubLink": [
             "https://github.com/PAxwelista/hackatweet-frontend",
@@ -134,7 +134,7 @@
             "/images/foodApp4.png",
             "/images/foodApp5.png"
         ],
-        "description": "Une application mobile pour consulter des recettes et également pouvoir les enregistrer",
+        "description": "Une application mobile pour consulter des recettes. Les utilisateurs peuvent changer le nombres de parts afin connaître la quantité exacte d'ingrédients nécessaires. Il est également possible d'ajouter des recttes dans ses favoris.",
         "usedTechnos": ["Expo", "React Native"],
         "gitHubLink": ["https://github.com/PAxwelista/FoodApp"],
         "color": "#EEE",
@@ -150,7 +150,7 @@
             "/images/Locapic4.png",
             "/images/Locapic5.png"
         ],
-        "description": "Une application mobile qui permet d'enregistrer ses ses positions favorite et de les affichers sur une carte",
+        "description": "Une application mobile qui permet d'enregistrer ses positions favorites et de les afficher sur une carte. Il est possible de rajouter un lieu favoris en cliquant directement sur la carte ou en entrant le lieu souhaité dans l'input de la dernière page.",
         "usedTechnos": ["Expo", "React Native", "Express", "Node.js"],
         "gitHubLink": [
             "https://github.com/PAxwelista/Locapic-frontend",
@@ -163,8 +163,8 @@
         "id": 13,
         "title": "FaceUp",
         "pictures": ["/images/faceUp1.jpg", "/images/faceUp2.jpg", "/images/faceUp3.jpg"],
-        "description": "Une application qui permet de prendre des photos et de les enregistrer sur Cloudinary",
-        "usedTechnos": ["Cloudinary", "Expo", "React Native", "Express", "Node.js"],
+        "description": "Une application qui permet de prendre des photos et de les enregistrer sur Cloudinary.",
+        "usedTechnos": ["Cloudinary", "TypeScript", "Expo", "React Native", "Express", "Node.js"],
         "gitHubLink": ["https://github.com/PAxwelista/FaceUp-frontend", "https://github.com/PAxwelista/FaceUp-backend"],
         "color": "#fce6a0",
         "mobile": true
@@ -173,9 +173,12 @@
         "id": 14,
         "title": "ChatApp",
         "pictures": ["/images/chatApp1.png", "/images/chatApp2.png", "/images/chatApp3.png"],
-        "description": "Un chat qui utilise Pusher pour communiquer avec d'autre personnes en même temps. Il y a également la possibilitée d'envoyer des messages vocaux qui transitent par cloudinary",
-        "usedTechnos": ["Cloudinary","Pusher", "Expo", "React Native", "Express", "Node.js"],
-        "gitHubLink": ["https://github.com/PAxwelista/ChatApp-frontend", "https://github.com/PAxwelista/ChatApp-backend"],
+        "description": "Un chat qui utilise Pusher pour communiquer avec d'autres personnes en temps réel. Il est également possible d'envoyer des messages vocaux qui transitent par Cloudinary. Pusher est utilisé pour la gestion de la reception des messages en live.",
+        "usedTechnos": ["Cloudinary", "Pusher", "Expo", "React Native", "Express", "Node.js"],
+        "gitHubLink": [
+            "https://github.com/PAxwelista/ChatApp-frontend",
+            "https://github.com/PAxwelista/ChatApp-backend"
+        ],
         "color": "#EEE",
         "mobile": true
     }

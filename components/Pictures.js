@@ -34,6 +34,9 @@ export default function Pictures({ pictures, mobile = false }) {
                 open={openModal}
                 footer={null}
                 onCancel={() => setOpenModal(false)}
+                styles={{
+                    content: { textAlign: "center" },
+                }}
             >
                 <img
                     src={picture}
