@@ -72,7 +72,7 @@ export default function ProjectDetail(props) {
                                     </Link>
                                 </div>
                                 <div className={styles.github}>
-                                    <span>BackEnd</span>
+                                    
                                     <Link href={project.gitHubLink[1]}>
                                         <a>
                                             <Image
@@ -83,6 +83,7 @@ export default function ProjectDetail(props) {
                                             />
                                         </a>
                                     </Link>
+                                    <span>BackEnd</span>
                                 </div>
                             </div>
                         )

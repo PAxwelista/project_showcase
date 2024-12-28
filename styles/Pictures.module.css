@@ -14,5 +14,5 @@
 .zoomedPicture {
     object-fit: contain;
     max-height: 80vh;
-    max-width: 90vw;
+    max-width: 85vw;
 }
