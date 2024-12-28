@@ -5,7 +5,8 @@ function App({ Component, pageProps }) {
   return (
     <>
       <Head>
-        <title>Applications Madotto</title>
+        <title>Portfolio Axel Madotto</title>
+        <meta name="Portfolio Axel Madotto" content="Portfolio avec les différents projets que j'ai réalisés"></meta>
       </Head>
       <Component {...pageProps} />
     </>
